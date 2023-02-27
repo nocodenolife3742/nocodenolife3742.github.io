@@ -19,23 +19,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nocodenolife3742.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="蟲蟲的程式紀錄">
-<meta property="og:url" content="https://nocodenolife3742.github.io/index.html">
+    <meta name="description" content="安裝Hexo前置作業12node.jsgit 要先安裝好這兩個環境，才能繼續安裝 安裝指令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo 安裝紀錄">
+<meta property="og:url" content="https://nocodenolife3742.github.io/2023/02/27/hexo-%E5%AE%89%E8%A3%9D%E7%B4%80%E9%8C%84/index.html">
 <meta property="og:site_name" content="蟲蟲的程式紀錄">
+<meta property="og:description" content="安裝Hexo前置作業12node.jsgit 要先安裝好這兩個環境，才能繼續安裝 安裝指令">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2023-02-27T15:02:59.000Z">
+<meta property="article:modified_time" content="2023-02-27T16:32:06.718Z">
 <meta property="article:author" content="nocodenolife3742">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://nocodenolife3742.github.io/">
+<link rel="canonical" href="https://nocodenolife3742.github.io/2023/02/27/hexo-%E5%AE%89%E8%A3%9D%E7%B4%80%E9%8C%84/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-TW","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"https://nocodenolife3742.github.io/2023/02/27/hexo-%E5%AE%89%E8%A3%9D%E7%B4%80%E9%8C%84/","path":"2023/02/27/hexo-安裝紀錄/","title":"hexo 安裝紀錄"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>蟲蟲的程式紀錄</title>
+<title>hexo 安裝紀錄 | 蟲蟲的程式紀錄</title>
   
 
 
@@ -65,7 +71,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">蟲蟲的程式紀錄</h1>
+      <p class="site-title">蟲蟲的程式紀錄</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -87,7 +93,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目錄
@@ -100,6 +106,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%9DHexo"><span class="nav-number">1.</span> <span class="nav-text">安裝Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E7%BD%AE%E4%BD%9C%E6%A5%AD"><span class="nav-number">1.1.</span> <span class="nav-text">前置作業</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E6%8C%87%E4%BB%A4"><span class="nav-number">1.2.</span> <span class="nav-text">安裝指令</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8Bblog%E6%B5%81%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">建立blog流程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8B%E6%96%B0%E7%9A%84blog"><span class="nav-number">2.1.</span> <span class="nav-text">建立新的blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AA%BF%E6%95%B4blog%E8%A8%AD%E5%AE%9A"><span class="nav-number">2.2.</span> <span class="nav-text">調整blog設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8B%E6%96%B0%E7%9A%84post"><span class="nav-number">2.3.</span> <span class="nav-text">建立新的post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A0%90%E8%A6%BDblog"><span class="nav-number">2.4.</span> <span class="nav-text">預覽blog</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -133,16 +140,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
     <link itemprop="mainEntityOfPage" href="https://nocodenolife3742.github.io/2023/02/27/hexo-%E5%AE%89%E8%A3%9D%E7%B4%80%E9%8C%84/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -156,13 +164,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 蟲蟲的程式紀錄">
+      <meta itemprop="name" content="hexo 安裝紀錄 | 蟲蟲的程式紀錄">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/02/27/hexo-%E5%AE%89%E8%A3%9D%E7%B4%80%E9%8C%84/" class="post-title-link" itemprop="url">hexo 安裝紀錄</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          hexo 安裝紀錄
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -192,18 +200,18 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="安裝Hexo"><a href="#安裝Hexo" class="headerlink" title="安裝Hexo"></a>安裝Hexo</h2><h3 id="前置作業"><a href="#前置作業" class="headerlink" title="前置作業"></a>前置作業</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node.js</span><br><span class="line">git</span><br></pre></td></tr></table></figure>
+        <h2 id="安裝Hexo"><a href="#安裝Hexo" class="headerlink" title="安裝Hexo"></a>安裝Hexo</h2><h3 id="前置作業"><a href="#前置作業" class="headerlink" title="前置作業"></a>前置作業</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node.js</span><br><span class="line">git</span><br></pre></td></tr></table></figure>
 <p>要先安裝好這兩個環境，才能繼續安裝</p>
-<h3 id="安裝指令"><a href="#安裝指令" class="headerlink" title="安裝指令"></a>安裝指令</h3>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/02/27/hexo-%E5%AE%89%E8%A3%9D%E7%B4%80%E9%8C%84/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
+<h3 id="安裝指令"><a href="#安裝指令" class="headerlink" title="安裝指令"></a>安裝指令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>執行完這個指令，Hexo就安裝好嘍</p>
+<h2 id="建立blog流程"><a href="#建立blog流程" class="headerlink" title="建立blog流程"></a>建立blog流程</h2><h3 id="建立新的blog"><a href="#建立新的blog" class="headerlink" title="建立新的blog"></a>建立新的blog</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<p>這樣就可以在這個資料夾使用Hexo了</p>
+<h3 id="調整blog設定"><a href="#調整blog設定" class="headerlink" title="調整blog設定"></a>調整blog設定</h3><p>可以在新建出來的資料夾下修改_config.yml，調整blog設定<br>詳細設定可以參考<a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/configuration">官方文檔</a></p>
+<h3 id="建立新的post"><a href="#建立新的post" class="headerlink" title="建立新的post"></a>建立新的post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;&lt;title&gt;&quot;</span></span><br></pre></td></tr></table></figure>
+<p>執行這個指令後，會生成一個標題是&lt;title&gt;的文章<br>之後只要在\source\_posts裡修改makrdown檔案，就可以對post進行編輯</p>
+<h3 id="預覽blog"><a href="#預覽blog" class="headerlink" title="預覽blog"></a>預覽blog</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>執行這個指令就可以啟動hexo伺服器，預覽blog架好的樣子</p>
+
     </div>
 
     
@@ -211,11 +219,17 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+              <a href="/tags/blog/" rel="tag"># blog</a>
+          </div>
+
+        
+
     </footer>
   </article>
 </div>
+
 
 
 
