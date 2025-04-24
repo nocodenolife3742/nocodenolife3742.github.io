@@ -6,16 +6,21 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif; /* Clean sans-serif for body text */
+    font-family: 'Lato', sans-serif;
+    /* Clean sans-serif for body text */
     line-height: 1.6;
-    background-color: #f8f9fa; /* Light background */
-    color: #343a40; /* Dark grey text */
-    padding-bottom: 60px; /* Space for footer */
+    background-color: #f8f9fa;
+    /* Light background */
+    color: #343a40;
+    /* Dark grey text */
+    padding-bottom: 60px;
+    /* Space for footer */
 }
 
 /* Header Styling */
 header {
-    background-color: #343a40; /* Dark background for header */
+    background-color: #343a40;
+    /* Dark background for header */
     color: #ffffff;
     padding: 2rem 1rem;
     text-align: center;
@@ -23,7 +28,8 @@ header {
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif; /* Elegant serif for main heading */
+    font-family: 'Playfair Display', serif;
+    /* Elegant serif for main heading */
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
@@ -40,37 +46,43 @@ header h1 {
     display: grid;
     /* Responsive grid: Adjusts columns based on width */
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem; /* Spacing between cards */
+    gap: 2rem;
+    /* Spacing between cards */
 }
 
 /* Project Card Styling */
 .project-card {
-    background-color: #ffffff; /* White card background */
+    background-color: #ffffff;
+    /* White card background */
     border-radius: 8px;
-    overflow: hidden; /* Keeps image corners rounded */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Subtle shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    overflow: hidden;
+    /* Keeps image corners rounded */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth hover effect */
     display: flex;
-    flex-direction: column; /* Stack image, content vertically */
+    flex-direction: column;
 }
 
 .project-card:hover {
-    transform: translateY(-5px); /* Lift card on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* Enhanced shadow */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    /* Enhanced shadow */
 }
 
 /* Project Image */
 .project-image {
     width: 100%;
-    height: 200px; /* Fixed height for consistency */
-    object-fit: cover; /* Cover the area without distortion */
+    height: 200px;
+    object-fit: cover;
     display: block;
 }
 
 /* Project Content Area */
 .project-content {
     padding: 1.5rem;
-    flex-grow: 1; /* Allows content to fill space if card heights differ */
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
@@ -86,42 +98,47 @@ header h1 {
 .github-link {
     display: inline-block;
     margin-bottom: 1rem;
-    color: #007bff; /* Link color */
+    color: #007bff;
+    /* Link color */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease;
 }
 
 .github-link:hover {
-    color: #0056b3; /* Darker link color on hover */
+    color: #0056b3;
+    /* Darker link color on hover */
     text-decoration: underline;
 }
-
-/* Optional: Add icon styling if using Font Awesome */
-/* .github-link i { margin-right: 5px; } */
 
 /* Project Description */
 .project-description {
     font-size: 0.95rem;
     margin-bottom: 1rem;
-    flex-grow: 1; /* Pushes tech bubbles to the bottom */
+    flex-grow: 1;
+    /* Pushes tech bubbles to the bottom */
     color: #495057;
 }
 
 /* Tech Bubbles Container */
 .tech-bubbles {
-    margin-top: auto; /* Pushes to bottom if description is short */
+    margin-top: auto;
+    /* Pushes to bottom if description is short */
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem; /* Spacing between bubbles */
+    gap: 0.5rem;
+    /* Spacing between bubbles */
 }
 
 /* Individual Tech Bubble */
 .tech-bubble {
-    background-color: #e9ecef; /* Light grey bubble background */
-    color: #495057; /* Darker text for contrast */
+    background-color: #e9ecef;
+    /* Light grey bubble background */
+    color: #495057;
+    /* Darker text for contrast */
     padding: 0.3em 0.8em;
-    border-radius: 15px; /* Pill shape */
+    border-radius: 15px;
+    /* Pill shape */
     font-size: 0.8rem;
     font-weight: 500;
 }
@@ -132,16 +149,19 @@ footer {
     color: #adb5bd;
     text-align: center;
     padding: 1rem;
-    position: absolute; /* Can use fixed if you always want it visible */
+    position: absolute;
+    /* Can use fixed if you always want it visible */
     bottom: 0;
     width: 100%;
-    margin-top: 3rem; /* Space above footer */
+    margin-top: 3rem;
+    /* Space above footer */
 }
 
 /* Responsive Adjustments (Example) */
 @media (max-width: 768px) {
     .project-grid {
-        grid-template-columns: 1fr; /* Stack cards on smaller screens */
+        grid-template-columns: 1fr;
+        /* Stack cards on smaller screens */
     }
 
     header h1 {
