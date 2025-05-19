@@ -12,7 +12,7 @@ layout: "hextra-home"
 }
 
 .intro-section {
-    padding: 25px;
+    padding: 25 0px;
     text-align: left;
     font-family: 'SF Mono', 'Consolas', 'Menlo', 'Courier New', Courier, monospace;
 }
