@@ -1,0 +1,75 @@
+# Hugo configuration file
+title: eric@localhost
+
+hasCJKLanguage: true
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Portfolio
+      pageRef: /portfolio
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Blog
+      pageRef: /blog
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/nocodenolife3742"
+      params:
+        icon: github
+
+params:
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    enable: false
+
+  editURL:
+    enable: false
+    base: "https://github.com/nocodenolife3742/nocodenolife3742.github.io/edit/main/"
+
+  theme:
+    default: dark
+    displayToggle: false
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  blog:
+    list:
+      displayTags: true
+      sortBy: date
+      sortOrder: desc
+
+  highlight:
+    copy:
+      enable: true
+      display: hover
