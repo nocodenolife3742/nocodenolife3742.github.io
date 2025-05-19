@@ -12,9 +12,11 @@ layout: "hextra-home"
 }
 
 .intro-section {
-    padding: 25 0px;
+    padding: 0 10px;
     text-align: left;
     font-family: 'SF Mono', 'Consolas', 'Menlo', 'Courier New', Courier, monospace;
+    word-break: break-all;
+    overflow-wrap: break-all;
 }
 
 .intro-section .intro-heading {
@@ -22,8 +24,8 @@ layout: "hextra-home"
     font-weight: bold;
     color: var(--terminal-secondary-text);
     margin-bottom: 20px;
-    line-height: 1.4;
-    min-height: 1.4em;
+    line-height: 1.2;
+    min-height: 1.2em;
     position: relative;
 }
 
@@ -70,6 +72,24 @@ layout: "hextra-home"
 #grid-container.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (max-width: 500px) {
+    .intro-section .intro-heading {
+        font-size: 1.5rem;
+    }
+    .intro-section .intro-paragraph {
+        line-height: 1.45rem;
+        font-size: 1rem;
+    }
+    .intro-section .intro-heading::before {
+        content: "";
+    }
+    .intro-section .cursor {
+        width: 4px;
+        height: 0.9em;
+        margin-left: 2px;
+    }
 }
 
 </style>
