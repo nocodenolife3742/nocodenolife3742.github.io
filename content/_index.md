@@ -4,6 +4,8 @@ layout: "hextra-home"
 ---
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
 :root {
     --terminal-primary-text:rgb(189, 200, 211);
     --terminal-secondary-text:rgb(93, 184, 101);
@@ -14,7 +16,7 @@ layout: "hextra-home"
 .intro-section {
     padding: 0 10px;
     text-align: left;
-    font-family: 'SF Mono', 'Consolas', 'Menlo', 'Courier New', Courier, monospace;
+    font-family: 'JetBrains Mono', 'SF Mono', 'Consolas', 'Menlo', 'Courier New', Courier, monospace;
     word-break: break-all;
     overflow-wrap: break-all;
 }
@@ -60,7 +62,7 @@ layout: "hextra-home"
     font-weight: normal;
     color: var(--terminal-content-text);
     line-height: 1.65;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     max-width: 100%;
     opacity: 0;
     transform: translateY(15px);
