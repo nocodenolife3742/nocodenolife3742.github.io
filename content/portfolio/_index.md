@@ -6,13 +6,18 @@ toc: false
 ## Finished Projects
 
 {{< cards >}}
-    {{< card link="https://github.com/kesshoban3310/OOPL2024S" title="Mega Man Game Remake" image="/images/rockman.png" subtitle="A modular, reusable game component system developed with object-oriented programming (OOP), faithfully recreating the classic Mega Man gameplay experience." >}}
+    {{< card link="https://github.com/nocodenolife3742/OOPL2024S" title="Mega Man Remake" image="/images/rockman.png" subtitle="A faithful recreation of the classic Mega Man, featuring a modular and reusable component system built with object-oriented programming principles." >}}
 
-    {{< card link="https://github.com/NTUT-Database-System-Course/ACW" title="E-Commerce Website" image="/images/e-commerce.png" subtitle="Frontend designed with React and Tailwind CSS, backend powered by Golang and PostgreSQL. APIs are defined with Swagger for easy feature extension and system integration."  >}}
+    {{< card link="https://github.com/NTUT-Database-System-Course/ACW" title="Full-Stack E-Commerce Platform" image="/images/e-commerce.png" subtitle="A scalable e-commerce site with a React and Tailwind CSS frontend, Golang and PostgreSQL backend, and Swagger-defined APIs for seamless integration and extensibility." >}}
 
-    {{< card link="https://github.com/nocodenolife3742/Lisp-Compiler" title="Lisp Compiler" image="/images/lisp_compiler.png" subtitle="A lightweight Lisp compiler fully implemented from lexical analysis and parsing to code generation, supporting a subset of core Common Lisp syntax."  >}}
+    {{< card link="https://github.com/nocodenolife3742/Lisp-Compiler" title="Lightweight Common Lisp Compiler" image="/images/lisp_compiler.png" subtitle="A compact Lisp compiler, built from scratch, covering lexical analysis, parsing, and code generation for a core subset of Common Lisp." >}}
 
-    {{< card link="https://github.com/nocodenolife3742/Tetris-Battle" title="Tetris Battle Game" image="/images/tetris_battle.png" subtitle="A real-time two-player online Tetris battle game. Backend uses Express.js and real-time communication is implemented with Socket.IO, allowing players to compete with friends." >}}
+    {{< card link="https://github.com/nocodenolife3742/Tetris-Battle" title="Online Tetris Battle" image="/images/tetris_battle.png" subtitle="A real-time, two-player Tetris battle game. Features an Express.js backend and websocket for smooth, competitive online play." >}}
+
+    {{< card link="https://github.com/nocodenolife3742/antithesis-sentence-generator" title="AI Antithesis Sentence Generator" image="/images/tetris_battle.png" subtitle="A fine-tuned T5 transformer model that crafts antithesis sentences, showcasing AI-driven rhetorical contrast and parallelism." >}}
+
+    {{< card link="https://github.com/NTUT-Machine-Vision/lab3" title="Automated Research Paper Summarizer" image="/images/tetris_battle.png" subtitle="A system leveraging YOLOv11, LLMs, and OCR to extract, summarize, and store key research paper content for efficient retrieval." >}}
+
 {{< /cards >}}
 
 ## Ongoing Projects
