@@ -14,9 +14,9 @@ toc: false
 
     {{< card link="https://github.com/nocodenolife3742/Tetris-Battle" title="Online Tetris Battle" image="/images/tetris_battle.png" subtitle="A real-time, two-player Tetris battle game. Features an Express.js backend and websocket for smooth, competitive online play." >}}
 
-    {{< card link="https://github.com/nocodenolife3742/antithesis-sentence-generator" title="AI Antithesis Sentence Generator" image="/images/tetris_battle.png" subtitle="A fine-tuned T5 transformer model that crafts antithesis sentences, showcasing AI-driven rhetorical contrast and parallelism." >}}
+    {{< card link="https://github.com/nocodenolife3742/antithesis-sentence-generator" title="AI Antithesis Sentence Generator" image="/images/antithesis_generation.png" subtitle="A fine-tuned T5 transformer model that crafts antithesis sentences, showcasing AI-driven rhetorical contrast and parallelism." >}}
 
-    {{< card link="https://github.com/NTUT-Machine-Vision/lab3" title="Automated Research Paper Summarizer" image="/images/tetris_battle.png" subtitle="A system leveraging YOLOv11, LLMs, and OCR to extract, summarize, and store key research paper content for efficient retrieval." >}}
+    {{< card link="https://github.com/NTUT-Machine-Vision/lab3" title="AI Paper Summarizer" image="/images/ai_paper_summarizer.png" subtitle="A system leveraging YOLOv11, LLMs, and OCR to extract, summarize, and store key research paper content for efficient retrieval." >}}
 
 {{< /cards >}}
 
