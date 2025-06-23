@@ -18,6 +18,8 @@ toc: false
 
     {{< card link="https://github.com/NTUT-Machine-Vision/lab3" title="AI Paper Summarizer" image="/images/ai_paper_summarizer.png" subtitle="A system leveraging YOLOv11, LLMs, and OCR to extract, summarize, and store key research paper content for efficient retrieval." >}}
 
+    {{< card link="https://github.com/nocodenolife3742/smart-home-control-system" title="Smart Home Control System" image="/images/smart_home.png" subtitle="A smart home system using GPIO to transmit sensor data via serial communication. Enables automated device control and sends email notifications to users based on sensor readings." >}}
+
 {{< /cards >}}
 
 ## Ongoing Projects
