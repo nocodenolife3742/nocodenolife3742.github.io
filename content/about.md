@@ -39,12 +39,3 @@ type: about
 - Database Management: PostgreSQL, MySQL, SQLite
 - Languages: Mandarin (native), English (TOEIC 825, BESTEP Reading C1, BESTEP Listening B2+) 
 
-## Autobiography
-
-I am a student in the Department of Computer Science and Information Engineering at National Taipei University of Technology. Since 2022, I have consistently maintained an outstanding GPA of 3.9/4.0 and have been awarded the Academic Excellence Award four times. Currently, I rank third in my department. These achievements reflect my hard work, passion for computer science, and strong commitment to excellence.
-
-My true passion lies in competitive programming, where I thrive in high-pressure environments that challenge my problem-solving abilities. It’s not just a hobby but a means of continuous growth, helping me sharpen my skills and think creatively under pressure. I have earned top placements in major contests, including 1st place (Gold Award) in the 2023 ICPC Taiwan Technology University Programming Contest and 3rd place (Gold Award) in 2024. Additionally, I have secured Bronze Awards at the ICPC Asia Taoyuan and Taichung Regional contests and received Honorable Mentions in NCPC 2023 and 2024. These experiences have refined my problem-solving, teamwork, and adaptability skills.
-
-Beyond competitive programming, I have worked on several personal projects that merge technical expertise with creativity. One of my favorite projects is a multiplayer Tetris game, built with Express.js and Socket.IO. It was a challenging yet rewarding project that provided valuable experience in creating real-time multiplayer applications. Another significant project involved developing a smart home control system through kernel module development, which implemented device management at the system level. These projects have enhanced my ability to tackle complex problems, prioritize user experience, and think critically.
-
-Looking ahead, I am eager to expand my knowledge in artificial intelligence and system optimization. I am passionate about creating innovative software solutions that address real-world challenges. I thrive in dynamic, collaborative environments that foster creativity and continuous learning, and I look forward to contributing to projects that make a meaningful impact.
