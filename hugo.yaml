@@ -23,7 +23,7 @@ menu:
     - name: Portfolio
       pageRef: /portfolio
       weight: 1
-    - name: About
+    - name: About Me
       pageRef: /about
       weight: 2
     - name: Blog
