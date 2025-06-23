@@ -28,7 +28,8 @@ type: about
 - Collegiate Programming Examination (CPE) 
     - 2023: A+, Expert Level (the highest level in exam) 
 - Advanced Placement Computer Science (APCS) 
-    - 2021, 2022: Practical aspect: 5/5, Theoretical aspect: 5/5 (full marks in both) 
+    - 2021: Practical aspect: 5/5
+    - 2022: Theoretical aspect: 5/5 
 - AI CUP 2024 Competition to predict power generation based on regional microclimate data (AI CUP 2024)
     - 2024: 31/934 (top 3%) 
 
