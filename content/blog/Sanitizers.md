@@ -85,3 +85,10 @@ Direct leak of 400 byte(s) in 1 object(s) allocated from:
 
 SUMMARY: AddressSanitizer: 400 byte(s) leaked in 1 allocation(s).
 ```
+
+可以從錯誤訊息中得知以下資訊：
+- Error type：AddressSanitizer 中的 LeakSanitizer 檢測到 memory leak。
+- Stack trace：可以看到是哪一行程式碼導致了 memory leak。
+- Leak size：可以看到 memory leak 的大小。
+
+這樣就可以很方便地定位和修復程式中的問題。
