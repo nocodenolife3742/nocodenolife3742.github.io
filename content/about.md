@@ -8,8 +8,9 @@ type: about
 - Phone: (+886) 963-368-089 
 
 ## Education
-- National Taipei University of Technology, Taipei Tech 
-    - Computer Science & Information Engineering, September 2022 – Present 
+- National Taipei University of Technology, Taipei Tech
+    - Bachelor of Computer Science and Information Engineering
+    - Expected Graduation: June 2026
     - GPA: 3.9 / 4.0 
     - Ranked 3rd in the department 
     - Received the academic excellence award four times 
