@@ -31,11 +31,11 @@ gcc -fsanitize=address,undefined -g -o program program.c
 
 裡面有兩個重要的參數：
 - `-fsanitize=address,undefined`：啟用 Sanitizers。注意有些 Sanitizers 不能同時啟用。
-- `-g`：生成 debug 信息，通常是給 gdb 使用的，可以在出現錯誤時獲得更詳細的資訊。
+- `-g`：生成 debug 訊息，通常是給 gdb 使用的，可以在出現錯誤時獲得更詳細的資訊。
 
 ## Sanitizers 的種類
 
-Sanitizers 有多種類型，每種 Sanitizer 都針對不同的問題進行檢測。以下是一些常用的 Sanitizers：
+Sanitizers 有多種類型，每種 Sanitizer 針對不同的問題進行檢測。以下是一些常用的 Sanitizers：
 
 ### AddressSanitizer (ASan)
 AddressSanitizer 用於檢測 C/C++ 程式中的 memory 錯誤，如：
@@ -52,15 +52,14 @@ UndefinedBehaviorSanitizer 用於檢測 C/C++ 程式中的 undefined behavior，
 - Invalid shift
 
 ### MemorySanitizer (MSan)
-MemorySanitizer 用於檢測 C/C++ 程式中的 uninitialized memory 使用。雖然名字中有 `Memory`，但它並不檢測 memory leaks。他的主要功能是檢測：
+MemorySanitizer 用於檢測 C/C++ 程式中的 uninitialized memory 。雖然名字中有 `Memory`，但它並不檢測 memory leaks。他的主要功能是檢測：
 - Uninitialized memory access
 - Uninitialized pointer dereference
 
 ## 使用範例
 以下是一個簡單的範例：
 ```c
-int main()
-{
+int main() {
     int *leak = new int[100];
     return 0;
 }
@@ -72,9 +71,8 @@ g++ -g -fsanitize=address main.cpp
 ./a.out
 ```
 
-執行後會輸出類似以下的錯誤信息：
+執行後會輸出類似以下的錯誤訊息：
 ```text
-
 =================================================================
 ==37552==ERROR: LeakSanitizer: detected memory leaks
 
