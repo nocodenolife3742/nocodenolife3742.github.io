@@ -47,7 +47,7 @@ flowchart TD
     C --> D
 ```
 
-## Fuzz 階段
+### Fuzz 階段
 
 Fuzz 階段使用 AFL++ 進行模糊測試，產生測試用例以觸發錯誤。指令如下：
 
@@ -61,7 +61,7 @@ afl-fuzz -i inputs -o outputs -- ./fuzz_target @@
 
 `outputs` 目錄存放 AFL++ 產生的測試用例與結果，其中 `crashes` 目錄包含所有觸發錯誤的測試用例。
 
-## Reproduce 階段
+### Reproduce 階段
 
 Reproduce 階段利用 AFL++ 產生的測試用例重現錯誤，並取得 sanitizers 報告。指令如下：
 
@@ -79,7 +79,7 @@ AFixL 會保存重現的錯誤及相關報告，供修復階段使用。
 
 有關 Sanitizer 的使用方法，請參考我的另一篇文章 [Sanitizers](https://nocodenolife3742.github.io/blog/sanitizers/)。
 
-## Repair 階段
+### Repair 階段
 
 Repair 階段利用自動化程式修復技術 (APR) 來修正錯誤。本工具以大型語言模型 (LLM) 為核心，產生修復建議，協助用戶修復程式缺陷。
 
@@ -125,7 +125,7 @@ sequenceDiagram
     note left of system: 系統接受修復建議
 ```
 
-## Evaluate 階段
+### Evaluate 階段
 
 Evaluate 階段評估修復後的程式是否能通過所有測試用例，且不再出現原錯誤。這一階段主要檢查以下幾點：
 1. **通過測試用例**：修復後的程式需能通過所有 Evaluation set，也就是用戶提供的**正常輸入**，確保修復不影響原有功能。
