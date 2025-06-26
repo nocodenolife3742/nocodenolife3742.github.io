@@ -25,7 +25,7 @@ tags:
 
 由於 AFixL 基於 AFL++，目前有以下限制：
 - **僅支援 C/C++**：目前僅能修復 C/C++ 程式，因為實作依賴 Clang 與 AFL++。
-- **無法修復邏輯錯誤**：僅針對如 segmentation fault、buffer overflow 等錯誤，無法處理算法等邏輯錯誤。
+- **無法修復邏輯錯誤**：僅針對如 segmentation fault、buffer overflow 等錯誤，無法處理演算法等邏輯錯誤。
 - **錯誤需可重現**：需能重現錯誤，才能收集 sanitizer 報告並評估修復成效。
 - **需 Docker 環境**：必須在具備 Docker 的環境下運行，以確保一致的編譯與執行環境。
 
