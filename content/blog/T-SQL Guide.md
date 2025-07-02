@@ -12,7 +12,7 @@ tags:
   - Guide
 ---
 
-Master T-SQL for Microsoft SQL Server with this comprehensive guide, covering everything from basic queries to advanced data manipulation—ideal for both beginners and experienced users.
+Master T-SQL with this comprehensive guide, covering everything from basic queries to advanced data manipulation.
 <!--more-->
 
 ## Part 1: The Foundations of Querying
