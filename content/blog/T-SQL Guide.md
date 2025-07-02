@@ -437,38 +437,3 @@ BEGIN CATCH
     THROW; -- Bubble the error up to the calling application
 END CATCH;
 ```
-
-
-## Part 5: Performance & Optimization
-
-Tools and techniques to make your queries run faster.
-
-### 5.1. Indexes
-
-Special lookup tables used to speed up data retrieval.
-
--   **Clustered Index**: Determines the physical order of data. Only one per table. A `PRIMARY KEY` usually creates this.
--   **Non-Clustered Index**: A separate structure with a pointer to the data. Many can exist per table.
-
-```sql
--- Create an index on a column frequently used in WHERE clauses or JOINs.
-CREATE NONCLUSTERED INDEX IX_Employees_LastName
-ON Employees (LastName, FirstName); -- A "covering" index on two columns
-```
-
-### 5.2. Temporary Storage
-
-Used to hold intermediate results in complex queries.
-
-| Type             | Syntax                       | Scope                 | Statistics    | Best Use Case                                      |
-| ---------------- | ---------------------------- | --------------------- | ------------- | -------------------------------------------------- |
-| **Temp Table**   | `CREATE TABLE #Temp`         | Current session       | Yes           | Large datasets, needs indexes, complex joins.      |
-| **Table Variable** | `DECLARE @Tbl TABLE(...)`    | Current batch         | No (mostly)   | Small datasets, simple list storage.               |
-| **CTE**          | `WITH CteName AS (...)`      | Single statement      | N/A           | Improving readability, recursive queries.          |
-
-### 5.3. Execution Plans
-
-The single most important tool for troubleshooting query performance. It shows how SQL Server is executing your query.
-
--   In SQL Server Management Studio (SSMS), press `Ctrl+M` (Include Actual Execution Plan) before running a query.
--   **Look For**: High-cost operators (%), thick arrows (many rows), Table Scans (often bad), Key Lookups, and warnings (e.g., missing index suggestions).
