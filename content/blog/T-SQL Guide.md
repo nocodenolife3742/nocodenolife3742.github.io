@@ -206,7 +206,6 @@ CROSS APPLY (
     ORDER BY OrderDate DESC
 ) AS o;
 
--- OUTER APPLY: Always returns the outer row, even if the function returns no results.
 -- OUTER APPLY: Returns all rows from the outer table, with NULLs if the function/table expression returns no rows.
 -- Example: Get the last 2 orders for each customer, including customers with no orders.
 SELECT c.CustomerName, o.OrderID, o.OrderDate
