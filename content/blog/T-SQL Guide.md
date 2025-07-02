@@ -12,7 +12,8 @@ tags:
   - Guide
 ---
 
-# A Systematic & Comprehensive Guide to T-SQL
+Master T-SQL for Microsoft SQL Server with this comprehensive guide, covering everything from basic queries to advanced data manipulation—ideal for both beginners and experienced users.
+<!--more-->
 
 ## Part 1: The Foundations of Querying
 
@@ -102,7 +103,6 @@ OFFSET 20 ROWS
 FETCH NEXT 10 ROWS ONLY;
 ```
 
----
 
 ## Part 2: Structuring & Manipulating Data (DDL & DML)
 
@@ -178,7 +178,6 @@ WHEN NOT MATCHED BY SOURCE THEN
     DELETE;
 ```
 
----
 
 ## Part 3: Advanced Data Retrieval & Transformation
 
@@ -304,7 +303,6 @@ UNPIVOT
 ) AS UnpivotTable;
 ```
 
----
 
 ## Part 4: Advanced Analysis & Programmability
 
@@ -440,7 +438,6 @@ BEGIN CATCH
 END CATCH;
 ```
 
----
 
 ## Part 5: Performance & Optimization
 
