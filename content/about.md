@@ -11,7 +11,7 @@ type: about
 - National Taipei University of Technology, Taipei Tech
     - Bachelor of Computer Science and Information Engineering
     - Expected Graduation: June 2026
-    - GPA: 3.9 / 4.0 
+    - GPA: 3.92 / 4.0 
     - Ranked 3rd in the department 
     - Received the academic excellence award four times 
 
@@ -38,5 +38,5 @@ type: about
 - Programming Languages: C, C++, Python, Java, Ocaml, Golang, JavaScript, TypeScript, SQL
 - Web Development: HTML, CSS, JavaScript, Tailwind CSS, React, Express.js, Flask
 - Database Management: PostgreSQL, MySQL, SQLite
-- Languages: Mandarin (native), English (TOEIC 825, BESTEP Reading C1, BESTEP Listening B2+) 
+- Languages: Mandarin (native), English (TOEIC 870, BESTEP Reading C1, BESTEP Listening B2+) 
 
