@@ -13,7 +13,7 @@ type: about
     - Expected Graduation: June 2026
     - GPA: 3.92 / 4.0 
     - Ranked 3rd in the department 
-    - Received the academic excellence award four times 
+    - Received the academic excellence award five times 
 
 ## Extracurricular Activities
 - ICPC Taiwan Technology University Programming Contest (TUPC)
