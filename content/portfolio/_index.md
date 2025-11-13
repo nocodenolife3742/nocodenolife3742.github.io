@@ -20,12 +20,7 @@ toc: false
 
     {{< card link="https://github.com/nocodenolife3742/smart-home-control-system" title="Smart Home Control System" image="/images/smart_home.png" subtitle="A smart home system using GPIO to transmit sensor data via serial communication. Enables automated device control and sends email notifications to users based on sensor readings." >}}
 
-{{< /cards >}}
-
-## Ongoing Projects
-
-{{< cards >}}
     {{< card link="https://github.com/nocodenolife3742/AFixL" title="AFixL" image="/images/afixl.png" subtitle="A framework for automated fuzz testing and program repair for C/C++ codebases. AFixL leverages large language models (LLMs) to generate targeted test cases, identify vulnerabilities, and suggest code fixes, streamlining the debugging and patching process." >}}
-{{< /cards >}}
 
+{{< /cards >}}
 
